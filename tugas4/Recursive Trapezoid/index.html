@@ -498,14 +498,25 @@
 <p>Metode trapesium merupakan metode integrasi numerik yang didasarkan pada penjumlahan segmen-segmen berbentuk trapesium. Apabila sebuah integral didekati dengan metode trapesium dengan satu segmen saja. Maka dapat dituliskan persamaan sebagai berikut :</p>
 <p><img alt="" src="../persamaan1.png" /></p>
 <p>Estimasi berdasarkan satu interval</p>
-<p><img src="estimasi-interval.png" alt="l" style="zoom:67%;" /></p>
+<p><img alt="l" src="../estimasi-interval.png" /></p>
 <h4 id="algoritma-integral-trapezoida">Algoritma Integral Trapezoida<a class="headerlink" href="#algoritma-integral-trapezoida" title="Permanent link">&para;</a></h4>
 <ol>
-<li>Definisikan y = f(x)</li>
-<li>Tentukan batas bawah (a) dan batas atas (b) integrasi</li>
-<li>Tentukan jumlah pembagi n</li>
-<li>Hitung h = (b-a)/2</li>
-<li>Hitung <img src="luas.png" style="zoom:50%;" /></li>
+<li>
+<p>Definisikan y = f(x)</p>
+</li>
+<li>
+<p>Tentukan batas bawah (a) dan batas atas (b) integrasi</p>
+</li>
+<li>
+<p>Tentukan jumlah pembagi n</p>
+</li>
+<li>
+<p>Hitung h = (b-a)/2</p>
+</li>
+<li>
+<p>Hitung</p>
+<p><img alt="" src="../luas.png" /></p>
+</li>
 </ol>
 <h3 id="listing-program">Listing Program<a class="headerlink" href="#listing-program" title="Permanent link">&para;</a></h3>
 <p>Code program python untuk menyelesaikan integrasi numerik menggunakan metode Recursive Trapezoida dapat dibuat dengan listing program sebagai berikut :</p>
@@ -549,37 +560,7 @@
 
 
 <h3 id="hasil-running-list-program">Hasil Running List Program<a class="headerlink" href="#hasil-running-list-program" title="Permanent link">&para;</a></h3>
-<div class="codehilite"><pre><span></span><code><span class="n">fungsi</span> <span class="n">yang</span> <span class="n">digunakan</span> <span class="n">adalah</span>
-
-         <span class="n">f</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="o">=</span> <span class="mi">1</span><span class="o">/</span><span class="p">(</span><span class="mi">1</span><span class="o">+</span><span class="n">x</span><span class="p">)</span>
-
-<span class="n">masukkan</span> <span class="n">batas</span> <span class="n">bawah</span> <span class="n">integral</span> <span class="p">:</span> <span class="mi">0</span>
-<span class="n">masukkan</span> <span class="n">batas</span> <span class="n">atas</span> <span class="n">integral</span> <span class="p">:</span> <span class="mi">1</span>
-<span class="n">masukkan</span> <span class="n">n</span> <span class="p">:</span> <span class="mi">16</span>
-
-<span class="o">----------------</span><span class="n">Hasil</span> <span class="n">Integrasi</span><span class="o">-----------------</span>
-<span class="n">iterasi</span>      <span class="n">n</span>       <span class="n">Trapezoid</span>
-<span class="mi">1</span>        <span class="mi">1</span>       <span class="mf">0.75</span>
-<span class="mi">2</span>        <span class="mi">2</span>       <span class="mf">0.7083333333333333</span>
-<span class="mi">3</span>        <span class="mi">4</span>       <span class="mf">0.6970238095238095</span>
-<span class="mi">4</span>        <span class="mi">8</span>       <span class="mf">0.6941218503718504</span>
-<span class="mi">5</span>        <span class="mi">16</span>          <span class="mf">0.6933912022075267</span>
-<span class="mi">6</span>        <span class="mi">32</span>          <span class="mf">0.6932082082692488</span>
-<span class="mi">7</span>        <span class="mi">64</span>          <span class="mf">0.6931624388834033</span>
-<span class="mi">8</span>        <span class="mi">128</span>         <span class="mf">0.6931509952281075</span>
-<span class="mi">9</span>        <span class="mi">256</span>         <span class="mf">0.6931481342324433</span>
-<span class="mi">10</span>       <span class="mi">512</span>         <span class="mf">0.6931474189784099</span>
-<span class="mi">11</span>       <span class="mi">1024</span>        <span class="mf">0.6931472401645831</span>
-<span class="mi">12</span>       <span class="mi">2048</span>        <span class="mf">0.6931471954611083</span>
-<span class="mi">13</span>       <span class="mi">4096</span>        <span class="mf">0.6931471842852348</span>
-<span class="mi">14</span>       <span class="mi">8192</span>        <span class="mf">0.69314718149127</span>
-<span class="mi">15</span>       <span class="mi">16384</span>       <span class="mf">0.6931471807927745</span>
-<span class="mi">16</span>       <span class="mi">32768</span>       <span class="mf">0.6931471806181497</span>
-<span class="mf">0.6931471807927745</span>
-<span class="mf">0.6931471806181497</span>
-<span class="mf">1.7462475909724162e-10</span>
-<span class="n">estimasi</span> <span class="n">error</span> <span class="p">:</span> <span class="mf">1.7462475909724162e-10</span>
-</code></pre></div>
+<p><img alt="" src="../running.png" /></p>
                 
                   
                 
