@@ -1,23 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url>
      <loc>https://robiatuladawiyah.github.io/tugas1/</loc>
-     <lastmod>2020-03-18</lastmod>
+     <lastmod>2020-04-06</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://robiatuladawiyah.github.io/tugas1/Menghitung%20Nilai%20e%5E2x/</loc>
-     <lastmod>2020-03-18</lastmod>
+     <lastmod>2020-04-06</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://robiatuladawiyah.github.io/tugas2/tugas%20komnum/</loc>
-     <lastmod>2020-03-18</lastmod>
+     <lastmod>2020-04-06</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://robiatuladawiyah.github.io/tugas3/Tugas3/</loc>
-     <lastmod>2020-03-18</lastmod>
+     <lastmod>2020-04-06</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://robiatuladawiyah.github.io/tugas4/Recursive%20Trapezoid/</loc>
-     <lastmod>2020-03-18</lastmod>
+     <lastmod>2020-04-06</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://robiatuladawiyah.github.io/tugas5/richardson/</loc>
+     <lastmod>2020-04-06</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>
