@@ -13,7 +13,7 @@
         <meta name="description" content="Repository Untuk Tugas">
       
       
-        <link rel="canonical" href="https://robiatuladawiyah.github.io/tugas1/Menghitung%20Nilai%20e%5E2x/">
+        <link rel="canonical" href="https://robiatuladawiyah.github.io/tugas7/Monte%20Carlo%20Methods/">
       
       
         <meta name="author" content="Robiatul Adawiyah">
@@ -42,7 +42,7 @@
     
     
       
-        <title>Tugas 1 - (180411100072) Robiatul Adawiyah</title>
+        <title>Tugas 7 - (180411100072) Robiatul Adawiyah</title>
       
     
     
@@ -118,7 +118,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#tugas-pertama" tabindex="0" class="md-skip">
+      <a href="#monte-carlo-methods" tabindex="0" class="md-skip">
         Skip to content
       </a>
     
@@ -144,7 +144,7 @@
             </span>
             <span class="md-header-nav__topic">
               
-                Tugas 1
+                Tugas 7
               
             </span>
           
@@ -223,7 +223,7 @@
   
     <li class="md-tabs__item">
       
-        <a href="../" class="md-tabs__link md-tabs__link--active">
+        <a href="../../tugas1/" class="md-tabs__link md-tabs__link--active">
           komputasi numerik
         </a>
       
@@ -301,7 +301,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../" title="Home" class="md-nav__link">
+    <a href="../../tugas1/" title="Home" class="md-nav__link">
       Home
     </a>
   </li>
@@ -311,20 +311,11 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-      
-    
-    
-    <a href="./" title="Tugas 1" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../../tugas1/Menghitung%20Nilai%20e%5E2x/" title="Tugas 1" class="md-nav__link">
       Tugas 1
     </a>
-    
   </li>
 
         
@@ -392,11 +383,49 @@
           
           
 
+  
 
-  <li class="md-nav__item">
-    <a href="../../tugas7/Monte%20Carlo%20Methods/" title="Tugas 7" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Tugas 7
+      </label>
+    
+    <a href="./" title="Tugas 7" class="md-nav__link md-nav__link--active">
       Tugas 7
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#berikut-adalah-penerapan-monte-carlo-methods" class="md-nav__link">
+    Berikut adalah penerapan Monte Carlo Methods
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
   </li>
 
         
@@ -422,6 +451,22 @@
     
   
   
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#berikut-adalah-penerapan-monte-carlo-methods" class="md-nav__link">
+    Berikut adalah penerapan Monte Carlo Methods
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -432,112 +477,28 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/robiatuladawiyah/edit/master/docs/tugas1/Menghitung Nilai e^2x.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                  <a href="https://github.com/robiatuladawiyah/edit/master/docs/tugas7/Monte Carlo Methods.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
-                <h1 id="tugas-pertama"><em>Tugas Pertama</em><a class="headerlink" href="#tugas-pertama" title="Permanent link">&para;</a></h1>
-<h1 id="deret-maclaurin"><em>Deret Maclaurin</em><a class="headerlink" href="#deret-maclaurin" title="Permanent link">&para;</a></h1>
-<p><em>Deret MacLaurin</em> adalah Suatu fungsi f(x) yang memiliki turunan <img alt="f'(x)" src="https://s0.wp.com/latex.php?latex=f%27%28x%29&amp;bg=ffffff&amp;fg=666666&amp;s=0" />, <img alt="f''(x)" src="https://s0.wp.com/latex.php?latex=f%27%27%28x%29&amp;bg=ffffff&amp;fg=666666&amp;s=0" />, <img alt="f'''(x)" src="https://s0.wp.com/latex.php?latex=f%27%27%27%28x%29&amp;bg=ffffff&amp;fg=666666&amp;s=0" />, dan seterusnya yang kontinyu dalam interval <img alt="I" src="https://s0.wp.com/latex.php?latex=I&amp;bg=ffffff&amp;fg=666666&amp;s=0" /> dengan <img alt="a, x \in I" src="https://s0.wp.com/latex.php?latex=a%2C+x+%5Cin+I&amp;bg=ffffff&amp;fg=666666&amp;s=0" /> maka untuk <img alt="x" src="https://s0.wp.com/latex.php?latex=x&amp;bg=ffffff&amp;fg=666666&amp;s=0" /> disekitar <img alt="a" src="https://s0.wp.com/latex.php?latex=a&amp;bg=ffffff&amp;fg=666666&amp;s=0" /> yaitu <img alt="|x -a| &lt; \mathbb{R}" src="https://s0.wp.com/latex.php?latex=%7Cx+-a%7C+%3C+%5Cmathbb%7BR%7D&amp;bg=ffffff&amp;fg=666666&amp;s=0" />, <img alt="f(x)" src="https://s0.wp.com/latex.php?latex=f%28x%29&amp;bg=ffffff&amp;fg=666666&amp;s=0" /> dapat diekspansi kedalam Deret Taylor.
-Deret Taylor dalam matematika adalah representasi fungsi matematika sebagai jumlahan tak hingga dari suku-suku yang nilainya dihitung dari turunan fungsi tersebut di suatu titik. Deret ini dapat dianggap sebagai limit polinomial Taylor.</p>
-<p>Contoh:
-$$
-f(x)≈f(0)+f’(0)x \displaystyle+\frac{{{f}\text{'}\text{'}{\left({0}\right)}}}{{{2}!}}{x}^{2}+ 
-2!
-f’’(0)
-​ <br />
- x 
-2
-  \displaystyle+\frac{{{f}\text{'}\text{'}\text{'}{\left({0}\right)}}}{{{3}!}}{x}^{3}+ 
-f’’’(0)
-​ <br />
- x 
-3
-  \displaystyle+\frac{{{{f}^{{\text{iv}}}{\left({0}\right)}}}}{{{4}!}}{x}^{4}
-  \displaystyle+\ldots
-$$
-Atau bisa dinyatakan dengan:</p>
-<p><img alt="png" src="../Rumus1.png" /></p>
-<h2 id="perhitungan-e2x"><em>Perhitungan e^2x</em><a class="headerlink" href="#perhitungan-e2x" title="Permanent link">&para;</a></h2>
-<p>Dalam banyak masalah terapan, pilihan basis yang mudah digunakan adalah bilangan irasional <em>e = 2,718281828...</em></p>
-<p>Bilangan ini disebut <strong>basis natural</strong>. Fungsi <em>f</em>(<em>x</em>) = <em>ex</em> disebut sebagai fungsi eksponensial natural. Gambar 7 menunjukkan grafik fungsi ini. Pastikan bahwa dalam melihat fungsi eksponensial <em>f</em>(<em>x</em>) = <em>ex</em>, <em>e</em> adalah konstanta 2,718281828…, sedangkan <em>x</em> adalah variabel.</p>
-<p>$f(x) = e^x$</p>
-<p>f'(x) = ex <img alt="\rightarrow" src="https://s0.wp.com/latex.php?latex=%5Crightarrow&amp;bg=ffffff&amp;fg=666666&amp;s=0" /> f'(0) = 1</p>
-<p>f”(x) = ex <img alt="\rightarrow" src="https://s0.wp.com/latex.php?latex=%5Crightarrow&amp;bg=ffffff&amp;fg=666666&amp;s=0" /> f”(0) = 1</p>
-<p>f”'(x) = ex <img alt="\rightarrow" src="https://s0.wp.com/latex.php?latex=%5Crightarrow&amp;bg=ffffff&amp;fg=666666&amp;s=0" /> f”'(0) = 1</p>
-<p>Untuk bilangan $e^2x$ maka:</p>
-<p><img alt="png" src="../e2x.png" /></p>
-<p><img alt="png" src="../deret1.png" /></p>
-<p>jadi, kesimpulannya adalah sebagai berikut:</p>
-<p><img alt="png" src="../deret2.png" /></p>
-<p><img alt="png" src="../deret3.png" /></p>
-<p>ketika nilai x diganti dengan 4 maka hasilnya adalah 296,99.</p>
-<h1 id="listing-program"><em>Listing Program</em><a class="headerlink" href="#listing-program" title="Permanent link">&para;</a></h1>
-<p>Untuk membuat program agar dapat mengekspansi bilangan e^2x dengan nilai x=4 hingga nilai menjadi kurang dari 0,001 bisa dibuat dengan listing program sebagai berikut.</p>
-<div class="codehilite"><pre><span></span><code><span class="kn">import</span> <span class="nn">math</span>
-
-<span class="n">x</span><span class="o">=</span><span class="mi">4</span>
-<span class="n">cek</span> <span class="o">=</span><span class="mi">1</span>
-<span class="n">a</span> <span class="o">=</span> <span class="mi">0</span>
-<span class="n">b</span><span class="o">=</span><span class="mi">1</span>
-<span class="nb">iter</span> <span class="o">=</span> <span class="mi">1</span>
-
-<span class="k">while</span> <span class="n">cek</span><span class="o">&gt;</span><span class="mf">0.001</span><span class="p">:</span>
-    <span class="n">f_x</span> <span class="o">=</span> <span class="mi">0</span>
-    <span class="n">f_y</span> <span class="o">=</span> <span class="mi">0</span>
-    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">a</span><span class="p">):</span>
-        <span class="n">f_x</span> <span class="o">+=</span> <span class="p">(</span><span class="mi">2</span><span class="o">**</span><span class="n">i</span><span class="p">)</span><span class="o">*</span><span class="n">x</span><span class="o">**</span><span class="n">i</span><span class="o">/</span><span class="n">math</span><span class="o">.</span><span class="n">factorial</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
-
-    <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">b</span><span class="p">):</span>
-        <span class="n">f_y</span> <span class="o">+=</span> <span class="p">(</span><span class="mi">2</span><span class="o">**</span><span class="n">j</span><span class="p">)</span><span class="o">*</span><span class="n">x</span><span class="o">**</span><span class="n">j</span><span class="o">/</span><span class="n">math</span><span class="o">.</span><span class="n">factorial</span><span class="p">(</span><span class="n">j</span><span class="p">)</span>
-    <span class="n">cek</span> <span class="o">=</span> <span class="n">f_y</span><span class="o">-</span><span class="n">f_x</span>
-    <span class="n">a</span><span class="o">+=</span><span class="mi">1</span>
-    <span class="n">b</span><span class="o">+=</span><span class="mi">1</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;iterasi ke-&quot;</span><span class="p">,</span><span class="nb">iter</span><span class="p">,</span><span class="s2">&quot;= &quot;</span><span class="p">,</span><span class="n">cek</span><span class="p">)</span>
-    <span class="nb">iter</span><span class="o">+=</span><span class="mi">1</span>
-</code></pre></div>
-
-
-<p>output:</p>
-<div class="codehilite"><pre><span></span><code><span class="n">iterasi</span> <span class="n">ke</span><span class="o">-</span> <span class="mi">1</span> <span class="o">=</span>  <span class="mf">1.0</span>
-<span class="n">iterasi</span> <span class="n">ke</span><span class="o">-</span> <span class="mi">2</span> <span class="o">=</span>  <span class="mf">8.0</span>
-<span class="n">iterasi</span> <span class="n">ke</span><span class="o">-</span> <span class="mi">3</span> <span class="o">=</span>  <span class="mf">32.0</span>
-<span class="n">iterasi</span> <span class="n">ke</span><span class="o">-</span> <span class="mi">4</span> <span class="o">=</span>  <span class="mf">85.33333333333333</span>
-<span class="n">iterasi</span> <span class="n">ke</span><span class="o">-</span> <span class="mi">5</span> <span class="o">=</span>  <span class="mf">170.66666666666669</span>
-<span class="n">iterasi</span> <span class="n">ke</span><span class="o">-</span> <span class="mi">6</span> <span class="o">=</span>  <span class="mf">273.0666666666666</span>
-<span class="n">iterasi</span> <span class="n">ke</span><span class="o">-</span> <span class="mi">7</span> <span class="o">=</span>  <span class="mf">364.08888888888896</span>
-<span class="n">iterasi</span> <span class="n">ke</span><span class="o">-</span> <span class="mi">8</span> <span class="o">=</span>  <span class="mf">416.1015873015872</span>
-<span class="n">iterasi</span> <span class="n">ke</span><span class="o">-</span> <span class="mi">9</span> <span class="o">=</span>  <span class="mf">416.1015873015872</span>
-<span class="n">iterasi</span> <span class="n">ke</span><span class="o">-</span> <span class="mi">10</span> <span class="o">=</span>  <span class="mf">369.8680776014112</span>
-<span class="n">iterasi</span> <span class="n">ke</span><span class="o">-</span> <span class="mi">11</span> <span class="o">=</span>  <span class="mf">295.89446208112895</span>
-<span class="n">iterasi</span> <span class="n">ke</span><span class="o">-</span> <span class="mi">12</span> <span class="o">=</span>  <span class="mf">215.195972422639</span>
-<span class="n">iterasi</span> <span class="n">ke</span><span class="o">-</span> <span class="mi">13</span> <span class="o">=</span>  <span class="mf">143.46398161509296</span>
-<span class="n">iterasi</span> <span class="n">ke</span><span class="o">-</span> <span class="mi">14</span> <span class="o">=</span>  <span class="mf">88.28552714774924</span>
-<span class="n">iterasi</span> <span class="n">ke</span><span class="o">-</span> <span class="mi">15</span> <span class="o">=</span>  <span class="mf">50.448872655856576</span>
-<span class="n">iterasi</span> <span class="n">ke</span><span class="o">-</span> <span class="mi">16</span> <span class="o">=</span>  <span class="mf">26.90606541645684</span>
-<span class="n">iterasi</span> <span class="n">ke</span><span class="o">-</span> <span class="mi">17</span> <span class="o">=</span>  <span class="mf">13.45303270822842</span>
-<span class="n">iterasi</span> <span class="n">ke</span><span class="o">-</span> <span class="mi">18</span> <span class="o">=</span>  <span class="mf">6.330838921519444</span>
-<span class="n">iterasi</span> <span class="n">ke</span><span class="o">-</span> <span class="mi">19</span> <span class="o">=</span>  <span class="mf">2.8137061873417224</span>
-<span class="n">iterasi</span> <span class="n">ke</span><span class="o">-</span> <span class="mi">20</span> <span class="o">=</span>  <span class="mf">1.184718394670199</span>
-<span class="n">iterasi</span> <span class="n">ke</span><span class="o">-</span> <span class="mi">21</span> <span class="o">=</span>  <span class="mf">0.47388735786807956</span>
-<span class="n">iterasi</span> <span class="n">ke</span><span class="o">-</span> <span class="mi">22</span> <span class="o">=</span>  <span class="mf">0.18052851728316455</span>
-<span class="n">iterasi</span> <span class="n">ke</span><span class="o">-</span> <span class="mi">23</span> <span class="o">=</span>  <span class="mf">0.06564673355751438</span>
-<span class="n">iterasi</span> <span class="n">ke</span><span class="o">-</span> <span class="mi">24</span> <span class="o">=</span>  <span class="mf">0.022833646454728296</span>
-<span class="n">iterasi</span> <span class="n">ke</span><span class="o">-</span> <span class="mi">25</span> <span class="o">=</span>  <span class="mf">0.0076112154847578495</span>
-<span class="n">iterasi</span> <span class="n">ke</span><span class="o">-</span> <span class="mi">26</span> <span class="o">=</span>  <span class="mf">0.0024355889549951826</span>
-<span class="n">iterasi</span> <span class="n">ke</span><span class="o">-</span> <span class="mi">27</span> <span class="o">=</span>  <span class="mf">0.0007494119863622473</span>
-</code></pre></div>
-
-
-<p>Sekian dan Terima Kaih.</p>
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-  tex2jax: {inlineMath: [['$$','$$'],['$','$']]}
-});
-</script>
-
-<p><script type="text/javascript" async
-  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
-</script></p>
+                <h1 id="monte-carlo-methods"><em>Monte Carlo Methods</em><a class="headerlink" href="#monte-carlo-methods" title="Permanent link">&para;</a></h1>
+<p>​       Salah satu metode komputasi yang banyak digunakan untuk memecahkan berbagai persoalan adalah metode Monte Carlo. Metode ini biasa digunakan unruk mensimulasikan berbagai perilaku sistem fisika dan matematika.</p>
+<p>​       Algoritma Monte Carlo adalah Metode monte Carlo numerik yang digunakan untuk menemukan solusi problem matematis yang adapat terdiri dari banyaknya variabel serta susah dipecahkan, misanya dengan kalkukulus integral atau metode numerik lainya. Algoritma ini memerlukan pengulangan dan perhitungan yang kompleks sehingga metode Monte Carlo pada umumnya dilakukan menggunakan komputer dan memakai berbagai teknik simulai komputer.</p>
+<h2 id="berikut-adalah-penerapan-monte-carlo-methods"><em>Berikut adalah penerapan Monte Carlo Methods</em><a class="headerlink" href="#berikut-adalah-penerapan-monte-carlo-methods" title="Permanent link">&para;</a></h2>
+<ol>
+<li><img alt="" src="../soal%201.png" /></li>
+</ol>
+<p>###### Program</p>
+<p><img alt="" src="D:script1.png" /></p>
+<p>###### Hasil Running</p>
+<p><img alt="" src="D:no3.png" /></p>
+<ol>
+<li><img alt="" src="D:soal 2.png" /></li>
+</ol>
+<p>###### Program</p>
+<p><img alt="" src="D:script2.png" /></p>
+<p>###### Hasil Running</p>
+<p><code>python
+   jawab:  8.414327361555996</code></p>
                 
                   
                 
@@ -559,7 +520,7 @@ MathJax.Hub.Config({
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../" title="Home" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../../tugas6/Tugas6/" title="Tugas 6" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -568,25 +529,11 @@ MathJax.Hub.Config({
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Home
+                Tugas 6
               </span>
             </div>
           </a>
         
-        
-          <a href="../../tugas2/tugas%20komnum/" title="Tugas 2" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
-            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
-              <span class="md-flex__ellipsis">
-                <span class="md-footer-nav__direction">
-                  Next
-                </span>
-                Tugas 2
-              </span>
-            </div>
-            <div class="md-flex__cell md-flex__cell--shrink">
-              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
-            </div>
-          </a>
         
       </nav>
     </div>
